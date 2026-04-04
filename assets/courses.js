@@ -18,6 +18,15 @@ window.COURSES = [
     repoUrl: "https://github.com/uet-iai-course/programming-methodology"
   },
   {
+    slug: "programming-for-data-processing",
+    title: "Lập trình xử lý dữ liệu",
+    englishTitle: "Programming for Data Processing",
+    year: 2,
+    semester: 1,
+    courseUrl: "/programming-for-data-processing/",
+    repoUrl: "https://github.com/uet-iai-course/programming-for-data-processing"
+  },
+  {
     slug: "machine-learning",
     title: "Học máy",
     englishTitle: "Machine Learning",

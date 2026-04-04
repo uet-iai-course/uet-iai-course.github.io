@@ -43,4 +43,5 @@ Sau đó push repo `uet-iai-course.github.io`.
 |---|---|---|
 | Tư duy tính toán | 1 | 1 |
 | Phương pháp luận lập trình | 1 | 2 |
+| Lập trình xử lý dữ liệu | 2 | 1 |
 | Học máy | 2 | 2 |
