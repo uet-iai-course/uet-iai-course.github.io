@@ -1,0 +1,353 @@
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --surface: #ffffff;
+  --surface-strong: #ffffff;
+  --line: rgba(0, 0, 0, 0.1);
+  --ink: #111111;
+  --muted: #767676;
+  --accent: #111111;
+  --accent-strong: #000000;
+  --accent-soft: rgba(0, 0, 0, 0.06);
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.06);
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f5f5f5;
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.shell {
+  position: relative;
+  width: min(1160px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0 64px;
+}
+
+.hero,
+.section {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  padding: 28px;
+}
+
+.eyebrow,
+.section-kicker,
+.panel-label,
+.process-step {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.hero h1,
+.section-heading h2,
+.course-header h4,
+.process-card h3 {
+  margin: 0;
+  font-family: var(--font-sans);
+  letter-spacing: -0.03em;
+}
+
+.hero h1 {
+  max-width: 18ch;
+  margin-top: 12px;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  line-height: 0.95;
+}
+
+.hero-lead,
+.section-note,
+.course-summary,
+.process-card p,
+.footer-note,
+.course-subtitle,
+.empty-state {
+  color: var(--muted);
+}
+
+.hero-lead {
+  max-width: 58ch;
+  margin: 20px 0 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.hero-actions,
+.course-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-actions {
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-1px);
+}
+
+.button-primary {
+  background: var(--ink);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  background: #333333;
+}
+
+.button-secondary {
+  border-color: rgba(0, 0, 0, 0.35);
+  background: transparent;
+}
+
+.button-secondary:hover,
+.button-secondary:focus-visible {
+  border-color: rgba(0, 0, 0, 0.7);
+  background: transparent;
+}
+
+
+.section {
+  margin-top: 26px;
+  padding: 28px;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: end;
+}
+
+.section-heading h2 {
+  margin-top: 10px;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.section-note {
+  max-width: 34ch;
+  margin: 0;
+  line-height: 1.65;
+}
+
+.course-grid,
+.process-grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.course-grid {
+  grid-template-columns: 1fr;
+}
+
+.year-group + .year-group {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.year-heading {
+  margin: 0 0 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+
+.sem-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.sem-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sem-label {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+.process-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.course-card,
+.process-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-strong);
+}
+
+.course-card {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+}
+
+.course-card .button {
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: 0.9rem;
+}
+
+.course-header h4 {
+  margin: 10px 0 0;
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+.course-subtitle {
+  margin: 8px 0 0;
+  font-size: 0.98rem;
+}
+
+
+
+.process-section {
+  background:
+    linear-gradient(180deg, rgba(255, 249, 239, 0.78), rgba(250, 241, 225, 0.9)),
+    radial-gradient(circle at top right, rgba(184, 92, 56, 0.08), transparent 20rem);
+}
+
+.process-card {
+  padding: 22px;
+}
+
+.process-step {
+  color: var(--accent-strong);
+}
+
+.process-card h3 {
+  margin-top: 16px;
+  font-size: 1.5rem;
+}
+
+.process-card p {
+  margin: 10px 0 0;
+  line-height: 1.65;
+}
+
+.footer {
+  margin-top: 12px;
+  padding: 20px 4px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 24px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 252, 247, 0.76);
+  border: 1px dashed rgba(19, 39, 45, 0.14);
+}
+
+@media (max-width: 960px) {
+  .hero-layout,
+  .course-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .section-note {
+    max-width: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .shell {
+    width: min(100% - 20px, 1160px);
+    padding-top: 16px;
+    padding-bottom: 24px;
+  }
+
+  .hero,
+  .section,
+  .footer {
+    padding: 20px;
+    border-radius: 22px;
+  }
+
+  .hero-copy h1 {
+    max-width: none;
+    font-size: clamp(2.3rem, 13vw, 3.8rem);
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .button,
+  .course-actions .button {
+    width: 100%;
+  }
+}
