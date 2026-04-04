@@ -30,7 +30,7 @@ Thêm object vào mảng `window.COURSES` trong `assets/courses.js`:
   englishTitle: "Course Name",
   year: 1,        // năm học trong chương trình (1, 2, 3, 4)
   semester: 2,    // học kỳ trong năm (1 hoặc 2)
-  courseUrl: "https://uet-iai-course.github.io/ten-mon-hoc/",
+  courseUrl: "/ten-mon-hoc/",
   repoUrl: "https://github.com/uet-iai-course/ten-mon-hoc"
 }
 ```

@@ -63,8 +63,6 @@
         var courseLink = document.createElement("a");
         courseLink.className = "button button-secondary";
         courseLink.href = course.courseUrl;
-        courseLink.target = "_blank";
-        courseLink.rel = "noreferrer";
         courseLink.textContent = "Xem tài liệu";
 
         card.appendChild(header);

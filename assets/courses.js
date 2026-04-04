@@ -5,7 +5,7 @@ window.COURSES = [
     englishTitle: "Computational Thinking",
     year: 1,
     semester: 1,
-    courseUrl: "https://uet-iai-course.github.io/computational-thinking/",
+    courseUrl: "/computational-thinking/",
     repoUrl: "https://github.com/uet-iai-course/computational-thinking"
   },
   {
@@ -14,7 +14,7 @@ window.COURSES = [
     englishTitle: "Programming Methodology",
     year: 1,
     semester: 2,
-    courseUrl: "https://uet-iai-course.github.io/programming-methodology/",
+    courseUrl: "/programming-methodology/",
     repoUrl: "https://github.com/uet-iai-course/programming-methodology"
   },
   {
@@ -23,7 +23,7 @@ window.COURSES = [
     englishTitle: "Machine Learning",
     year: 2,
     semester: 2,
-    courseUrl: "https://uet-iai-course.github.io/machine-learning/",
+    courseUrl: "/machine-learning/",
     repoUrl: "https://github.com/uet-iai-course/machine-learning"
   }
 ];
