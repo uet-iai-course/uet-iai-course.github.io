@@ -324,31 +324,20 @@ a {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 820px) {
   .shell {
-    width: min(100% - 20px, 1160px);
-    padding-top: 16px;
-    padding-bottom: 24px;
+    padding: 28px 16px 36px;
   }
 
-  .hero,
-  .section,
-  .footer {
-    padding: 20px;
-    border-radius: 22px;
+  .hero {
+    padding: 28px 22px 22px;
   }
 
-  .hero-copy h1 {
-    max-width: none;
-    font-size: clamp(2.3rem, 13vw, 3.8rem);
+  .section {
+    padding: 20px 18px 18px;
   }
 
-  .hero-stats {
+  .sem-grid {
     grid-template-columns: 1fr;
-  }
-
-  .button,
-  .course-actions .button {
-    width: 100%;
   }
 }
