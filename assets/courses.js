@@ -27,6 +27,15 @@ window.COURSES = [
     repoUrl: "https://github.com/uet-iai-course/programming-for-data-processing"
   },
   {
+    slug: "ai-system-engineering",
+    title: "Kỹ nghệ hệ thống Trí tuệ nhân tạo",
+    englishTitle: "AI System Engineering",
+    year: 2,
+    semester: 2,
+    courseUrl: "/ai-system-engineering/",
+    repoUrl: "https://github.com/uet-iai-course/ai-system-engineering"
+  },
+  {
     slug: "machine-learning",
     title: "Học máy",
     englishTitle: "Machine Learning",

@@ -31,7 +31,10 @@
     semGrid.className = "sem-grid";
 
     var bySem = {};
-    byYear[year].forEach(function (c) { bySem[c.semester] = c; });
+    byYear[year].forEach(function (c) {
+      if (!bySem[c.semester]) bySem[c.semester] = [];
+      bySem[c.semester].push(c);
+    });
 
     [1, 2].forEach(function (sem) {
       var col = document.createElement("div");
@@ -42,8 +45,7 @@
       semLabel.textContent = "Học kỳ " + sem;
       col.appendChild(semLabel);
 
-      var course = bySem[sem];
-      if (course) {
+      (bySem[sem] || []).forEach(function (course) {
         var card = document.createElement("article");
         card.className = "course-card";
 
@@ -68,7 +70,7 @@
         card.appendChild(header);
         card.appendChild(courseLink);
         col.appendChild(card);
-      }
+      });
 
       semGrid.appendChild(col);
     });
