@@ -46,3 +46,4 @@ Sau đó push repo `uet-iai-course.github.io`.
 | Lập trình xử lý dữ liệu | 2 | 1 |
 | Kỹ nghệ hệ thống Trí tuệ nhân tạo | 2 | 2 |
 | Học máy | 2 | 2 |
+| Xử lý và phân tích hình ảnh | 3 | 2 |

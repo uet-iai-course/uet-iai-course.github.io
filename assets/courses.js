@@ -43,5 +43,14 @@ window.COURSES = [
     semester: 2,
     courseUrl: "/machine-learning/",
     repoUrl: "https://github.com/uet-iai-course/machine-learning"
+  },
+  {
+    slug: "image-processing-analysis",
+    title: "Xử lý và phân tích hình ảnh",
+    englishTitle: "Image Processing and Analysis",
+    year: 3,
+    semester: 2,
+    courseUrl: "/image-processing-analysis/",
+    repoUrl: "https://github.com/uet-iai-course/image-processing-analysis"
   }
 ];
