@@ -18,12 +18,12 @@ window.COURSES = [
     repoUrl: "https://github.com/uet-iai-course/programming-methodology"
   },
   {
-    slug: "math-4-ai",
+    slug: "math-4-AI",
     title: "Cơ sở Toán học cho Trí tuệ nhân tạo",
     englishTitle: "Mathematical Foundations for Artificial Intelligence",
     year: 2,
     semester: 1,
-    courseUrl: "/math-4-ai",
+    courseUrl: "/math-4-AI",
     repoUrl: "https://github.com/uet-iai-course/math-4-ai"
   },
   {
