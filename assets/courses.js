@@ -45,6 +45,15 @@ window.COURSES = [
     repoUrl: "https://github.com/uet-iai-course/machine-learning"
   },
   {
+    slug: "reinforcement-learning-planning",
+    title: "Học tăng cường và lập kế hoạch",
+    englishTitle: "Reinforcement Learning and Planning",
+    year: 3,
+    semester: 1,
+    courseUrl: "/reinforcement-learning-planning/",
+    repoUrl: "https://github.com/uet-iai-course/reinforcement-learning-planning"
+  },
+  {
     slug: "image-processing-analysis",
     title: "Xử lý và phân tích hình ảnh",
     englishTitle: "Image Processing and Analysis",
