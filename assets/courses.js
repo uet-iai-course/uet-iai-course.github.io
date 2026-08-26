@@ -17,15 +17,15 @@ window.COURSES = [
     courseUrl: "/programming-methodology/",
     repoUrl: "https://github.com/uet-iai-course/programming-methodology"
   },
-  {
-    slug: "math-4-AI",
-    title: "Cơ sở Toán học cho Trí tuệ nhân tạo",
-    englishTitle: "Mathematical Foundations for Artificial Intelligence",
-    year: 2,
-    semester: 1,
-    courseUrl: "/math-4-AI",
-    repoUrl: "https://github.com/uet-iai-course/math-4-ai"
-  },
+//   {
+//     slug: "math-4-AI",
+//     title: "Cơ sở Toán học cho Trí tuệ nhân tạo",
+//     englishTitle: "Mathematical Foundations for Artificial Intelligence",
+//     year: 2,
+//     semester: 1,
+//     courseUrl: "/math-4-AI",
+//     repoUrl: "https://github.com/uet-iai-course/math-4-ai"
+//   },
   {
     slug: "programming-for-data-processing",
     title: "Lập trình xử lý dữ liệu",
@@ -53,15 +53,15 @@ window.COURSES = [
     courseUrl: "/machine-learning/",
     repoUrl: "https://github.com/uet-iai-course/machine-learning"
   },
-  {
-    slug: "reinforcement-learning-planning",
-    title: "Học tăng cường và lập kế hoạch",
-    englishTitle: "Reinforcement Learning and Planning",
-    year: 3,
-    semester: 1,
-    courseUrl: "/reinforcement-learning-planning/",
-    repoUrl: "https://github.com/uet-iai-course/reinforcement-learning-planning"
-  },
+//   {
+//     slug: "reinforcement-learning-planning",
+//     title: "Học tăng cường và lập kế hoạch",
+//     englishTitle: "Reinforcement Learning and Planning",
+//     year: 3,
+//     semester: 1,
+//     courseUrl: "/reinforcement-learning-planning/",
+//     repoUrl: "https://github.com/uet-iai-course/reinforcement-learning-planning"
+//   },
   {
     slug: "image-processing-analysis",
     title: "Xử lý và phân tích hình ảnh",
