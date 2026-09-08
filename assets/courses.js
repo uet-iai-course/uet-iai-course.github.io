@@ -63,6 +63,15 @@ window.COURSES = [
 //     repoUrl: "https://github.com/uet-iai-course/reinforcement-learning-planning"
 //   },
   {
+    slug: "cognition-language-and-thought",
+    title: "Nhận thức, Ngôn ngữ và Tư duy",
+    englishTitle: "Cognition, Language and Thought",
+    year: 3,
+    semester: 1,
+    courseUrl: "/cognition-language-and-thought/",
+    repoUrl: "https://github.com/uet-iai-course/cognition-language-and-thought"
+  },
+  {
     slug: "image-processing-analysis",
     title: "Xử lý và phân tích hình ảnh",
     englishTitle: "Image Processing and Analysis",
