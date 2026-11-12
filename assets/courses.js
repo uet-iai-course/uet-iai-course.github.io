@@ -63,7 +63,7 @@ window.COURSES = [
     repoUrl: "https://github.com/uet-iai-course/reinforcement-learning-planning"
   },
   {
-    slug: "ds-foundation-algorithms/",
+    slug: "ds-foundation-algorithms",
     title: "Giải thuật nền tảng của Khoa học dữ liệu",
     englishTitle: "Foundational algorithms for Data Science",
     year: 2,
